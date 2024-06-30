@@ -11,7 +11,7 @@ export function Editor() {
   useEffect(() => {
     if (containerRef.current) {
       const state = EditorState.create({
-        doc: 'Hello World',
+        doc: 'sup world\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nedit me\n\n\n\n\n\n\n\n\n\n\n\nneed to add val-town and linter\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncool\n\n\nlong live frames\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n',
         extensions: [
           keymap.of(defaultKeymap),
           lineNumbers(),

@@ -49,10 +49,10 @@ function App() {
               alt="framebuild"
             />
             <div className="flex items-center gap-x-8">
-              <button type="button" className="-m-2.5 p-2.5 text-gray-400 hover:text-gray-300">
+              <a href ="https://frog.fm/concepts/overview"  className="-m-2.5 p-2.5 text-gray-400 hover:text-gray-300">
                 <span className="sr-only">View documentation</span>
-                Docs
-              </button>
+                Frog Docs
+              </a>
               <a href="#" className="-m-1.5 p-1.5">
                 <span className="sr-only">Your profile</span>
                 <img
